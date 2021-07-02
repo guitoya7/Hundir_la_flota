@@ -17,9 +17,28 @@ Apasionante juego donde deberás salvar a tu tripulación de las manos del almir
 8. Si se hunden todos los barcos de un jugador, el juego acaba y gana el otro.
 
 ## Descripción del proyecto:
+Realizamos cinco funciones: (comienza_el_juego
+1. colocar_aleatorio: En un tablero 10*10 colocamos de manera aleatoria un barco con un algoritmo de control para que no lo coloque en una posicion ya usada ni se salga del tablero.
+2. inicializamos_tablero_enemigo: Llama la funcion anterior para cada barco del juego.
+3. colocar_no_aleatorio: Pide al usuario coordenada para inicializar barco y dirección, con el mismo algoritmo de control de antes.
+4. inicializamos_tablero_aliado: Llama la funcion anterior para cada barco del juego.
+5. comienza_el_juego: Programa que guarda la vida de cada jugador (numero de barcos) y inicializa cada disparo devolviendo un mapa con tus disparos y otro con los del rival.
+
+Algoritmo de control: Cada posición del barco es un 1 numérico, si queremos colocar un barco nuevo sumamos las posiciones adyacentes y si su suma es cero, no habrá barco.
+
+## Librerias:
+1. Numpys 
+2. Pandas
+3. Random
+
+## Recursos:
+1. Pycharm
 
 
 
 
 
-Autores: Pablo Faura ... _  Yago García Marqués
+
+Autores: 
+1. Pablo Faura Sanz  
+2. Yago García Marqués
